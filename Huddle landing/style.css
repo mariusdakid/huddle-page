@@ -1,0 +1,43 @@
+body{
+   min-height: 100vh;
+   min-width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-sizing: border-box;
+}
+
+.huddle{
+    background-color: rgb(103, 75, 175);
+    color: #fff;
+    border-radius: 6px;
+    width: 80%;
+    height: 800px;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px; 
+    margin-right: 20px;
+    /* margin-bottom: 500px; */
+    z-index: 2;
+}
+
+.desktop{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.content{
+   z-index: 1;
+}
+
+.illustration{
+    width: 500px;
+    height: 400px;
+    margin-right: 500px;
+    z-index: 3;
+}
+
